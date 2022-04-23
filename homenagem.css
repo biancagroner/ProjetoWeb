@@ -1,9 +1,17 @@
 body{
     background-color: rgb(42, 122, 122);
 }
-
+#title{
+    text-align: center;
+}
 #image{
     padding: 20px;
     margin: auto;
+    display: flex;
+}
+#img-caption{
+    text-align: center;
+}
+#tribute-info{
     display: flex;
 }
