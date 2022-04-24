@@ -1,17 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Montserrat&family=Square+Peg&display=swap');
+
 body{
-    background-color: rgb(42, 122, 122);
+    background-color: rgb(76, 187, 187);
+    text-align: center;
 }
 #title{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
 #image{
-    padding: 20px;
-    margin: auto;
-    display: flex;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+#img-div{
+    padding: 50px;
+    background-color: lightblue;
+    border: 3px solid rgb(17, 95, 119);
+    border-radius: 10px;
 }
 #img-caption{
     text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+.titulo-info{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 #tribute-info{
-    display: flex;
+   text-align: justify;
+   font-family: 'Inter', sans-serif;
+   font-size: 15px;
+}
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    text-align: justify;
+  }
+.citacao{
+    font-family: 'Water Brush', cursive;
+    text-align: justify;
+}
+.link-externo{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+a:hover{
+    color: aliceblue;
+}
+a:visited{
+    color: rgb(10, 77, 77);
 }
